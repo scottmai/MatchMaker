@@ -8,6 +8,7 @@ const {duck} = require('./duck');
 const PORT = 6969;
 
 
+// Serves a GET request to '/' and returns a JSON
 app.get('/', function(req, res) {
     res.json({
         over: 9000,
@@ -16,6 +17,7 @@ app.get('/', function(req, res) {
 });
 
 
+// Demo of a function from another file
 app.get('/duck', duck);
 
 
