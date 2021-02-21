@@ -1,0 +1,25 @@
+{
+  "name": "matchmaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottmai/MatchMaker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottmai/MatchMaker/issues"
+  },
+  "homepage": "https://github.com/scottmai/MatchMaker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "sqlite3": "^5.0.2"
+  }
+}
