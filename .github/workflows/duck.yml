@@ -1,0 +1,16 @@
+name: Cloudflare
+on: 
+  workflow_dispatch:
+    inputs:
+        tags:
+          description: 'Quack!'
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Quack
+    steps:
+      - name: Quack
+        run: "echo bop bop"
+        
