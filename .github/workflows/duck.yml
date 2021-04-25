@@ -10,9 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Quack
+    env:
+      working-directory: ./frontend
     steps:
-      - name: cd
-        run: 'cd api'
       - name: install
         run: 'npm install'
       - name: wrangle
