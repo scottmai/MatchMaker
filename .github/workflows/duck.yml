@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Quack
     steps:
+      - name: cd
+        run: 'cd api/'
+      - name: install
+        run: 'npm install'
+      - name: wrangle
+        run: 'npx wrangler --help'
       - name: Quack
         run: "echo bop bop"
         
