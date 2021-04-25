@@ -10,8 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Quack
-    env:
-      working-directory: ./api
+    defaults:
+      run:
+        working-directory: ./api
     steps:
       - name: pwd
         run: 'pwd'
